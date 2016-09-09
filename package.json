@@ -1,0 +1,39 @@
+{
+  "name": "network-type",
+  "version": "0.0.0",
+  "description": "Get the network type.",
+  "license": "MIT",
+  "repository": "hemanth/network-type",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "network"
+    "type",
+    "detect",
+    "bluetooth",
+    "cellular",
+    "ethernet",
+    "none",
+    "wifi",
+    "wimax",
+    "other",
+    "unknown"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "sinon": "^1.17.5"
+  }
+}

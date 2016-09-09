@@ -1,0 +1,208 @@
+[
+ {
+   "wimax": [
+      {
+         "type": "WiMAX 1",
+         "version": "rel 1",
+         "downlinkMax": "37"
+       },
+       {
+         "type": "WiMAX 1.5",
+         "version": "rel 1.5",
+         "downlinkMax": "141"
+       },
+       {
+         "type": "WiMAX 2",
+         "version": "rel 2",
+         "downlinkMax": "365"
+       },
+       {
+         "type": "GSM",
+         "version": "2G",
+         "downlinkMax": "0.01"
+       },
+       {
+         "type": "IDEN",
+         "version": "2G",
+         "downlinkMax": "0.064"
+       },
+       {
+         "type": "CDMA",
+         "version": "2G",
+         "downlinkMax": "0.115"
+       },
+       {
+         "type": "1xRTT",
+         "version": "2.5G",
+         "downlinkMax": "0.153"
+       },
+       {
+         "type": "GPRS",
+         "version": "2.5G",
+         "downlinkMax": "0.237"
+       },
+       {
+         "type": "EDGE",
+         "version": "2.75G",
+         "downlinkMax": "0.384"
+       },
+       {
+         "type": "UMTS",
+         "version": "3G",
+         "downlinkMax": "2"
+       },
+       {
+         "type": "EVDO Rev 0",
+         "version": "3.5G",
+         "downlinkMax": "2.46"
+       }
+   ]
+ },
+ {
+    "cellular": [
+    {
+      "type": "EVDO Rev A",
+      "version": "3.5G",
+      "downlinkMax": "3.1"
+    },
+    {
+      "type": "HSPA",
+      "version": "3.5G",
+      "downlinkMax": "3.6"
+    },
+    {
+      "type": "EVDO Rev B",
+      "version": "3.75G",
+      "downlinkMax": "14.7"
+    },
+    {
+      "type": "HSDPA",
+      "version": "3.75G",
+      "downlinkMax": "14.3"
+    },
+    {
+      "type": "HSUPA",
+      "version": "3.75G",
+      "downlinkMax": "14.4"
+    },
+    {
+      "type": "EHRPD",
+      "version": "3.9G",
+      "downlinkMax": "21"
+    },
+    {
+      "type": "HSPAP",
+      "version": "3.9G",
+      "downlinkMax": "42"
+    },
+    {
+      "type": "LTE",
+      "version": "4G",
+      "downlinkMax": "100"
+    },
+    {
+      "type": "LTE Advanced",
+      "version": "4G",
+      "downlinkMax": "100"
+    }
+   ]
+},
+{
+  "bluetooth":[
+    {
+      "type": "1.2",
+      "version": "1.2",
+      "downlinkMax": "1"
+    },
+    {
+      "type": "2.1 + Enhanced Data Rate (EDR)",
+      "version": "2.1+EDR",
+      "downlinkMax": "3"
+    },
+    {
+      "type": "3.0 + High Speed (HS)",
+      "version": "3.0+HS",
+      "downlinkMax": "24"
+    },
+    {
+      "type": "4.0 + Bluetooth Low Energy (BLE)",
+      "version": "4.0+BLE",
+      "downlinkMax": "1"
+    }
+  ]
+},
+{
+  "ethernet":[
+    {
+      "type": "Ethernet",
+      "version": "10",
+      "downlinkMax": "10"
+    },
+    {
+      "type": "Fast Ethernet",
+      "version": "100",
+      "downlinkMax": "100"
+    },
+    {
+      "type": "Gigabit Ethernet",
+      "version": "GigE",
+      "downlinkMax": "1000"
+    },
+    {
+      "type": "10-gigabit Ethernet",
+      "version": "10 GigE",
+      "downlinkMax": "10000"
+    }
+  ]
+},
+{
+  "wifi":[ 
+    {
+      "type": "b",
+      "version": "802.11b",
+      "downlinkMax": "11"
+    },
+    {
+      "type": "g",
+      "version": "802.11g",
+      "downlinkMax": "54"
+    },
+    {
+      "type": "n",
+      "version": "802.11n",
+      "downlinkMax": "600"
+    },
+    {
+      "type": "ac",
+      "version": "802.11ac",
+      "downlinkMax": "6933.3"
+    },
+    {
+      "type": "ad",
+      "version": "802.11ad",
+      "downlinkMax": "7000"
+    }
+  ]
+},
+{
+  "unknown": [{
+      "type": "unknown",
+      "version": "unknown",
+      "downlinkMax": "+Infinity"
+    }]
+},
+{
+  "none": [{
+      "type": "none",
+      "version": "none",
+      "downlinkMax": "0"
+  }]
+}
+,{
+  "other": [{
+    "type": "other",
+   "version": "other",
+   "downlinkMax": "user agent specific."
+ }]
+}
+]
