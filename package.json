@@ -1,6 +1,6 @@
 {
   "name": "network-type",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the network type.",
   "license": "MIT",
   "repository": "hemanth/network-type",
