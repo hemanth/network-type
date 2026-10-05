@@ -1,6 +1,6 @@
 {
   "name": "network-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the network type.",
   "license": "MIT",
   "repository": "hemanth/network-type",
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "node --check index.js"
   },
   "files": [
     "index.js"
@@ -33,7 +33,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.14.0",
-    "sinon": "^1.17.5"
+    "ava": "^8.0.1",
+    "sinon": "^22.1.0"
   }
 }
